@@ -1,6 +1,6 @@
 const authConfig = {
-  "siteName": "Google Drive Index", 
-  "siteIcon": "https://raw.githubusercontent.com/sawankumar/Google-Drive-Index-III/master/images/favicon.png",
+  "siteName": "", 
+  "siteIcon": "",
   "version": "4.28",
   "client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
@@ -19,10 +19,6 @@ const authConfig = {
  * [Note] For the folder whose id is set to the subfolder id, the search function will not be supported (it does not affect other disks).
  **/
   "roots": [
-    {
-      id: "root", //you can use folderid other than root but then search wont work
-      name: "Personal Drive",
-    },
     {
         id: "drive_id",
         name: "Personal Drive II",
@@ -46,7 +42,7 @@ const uiConfig = {
   "main_color": "blue-grey",
   "accent_color": "blue",
   "fluid_navigation_bar": true,
-  "avatar": "https://raw.githubusercontent.com/sawankumar/Google-Drive-Index-III/master/images/avatar.jpg",
+  "avatar": "",
   "disable_navicon": true
 };
 
@@ -98,7 +94,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="https://cdn.jsdelivr.net/gh/sawankumar/Google-Drive-Index-III@master/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/limaceous-bushwhacker/sample@master/app.js"></script>
 </head>
 <body>
 </body>
