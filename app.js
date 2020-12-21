@@ -5517,7 +5517,7 @@ function init() {
         UI.disable_navicon == true ? "none" : "block"
       }">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="https://telegram.dog/thegodfatherpart4" target="_blank">Contact</a></li>
+					<li class="menu_li"><a href="https://da.gd/Noi7s7" target="_blank">Contact</a></li>
 					<li class="menu_li"><a href="https://github.com/rick/roll" target="_blank">Github</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
